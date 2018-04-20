@@ -94,7 +94,7 @@ Page({
                 total: n.total,
             })
         })
-        console.log(params)
+        
         App.HttpService.postOrder(params)
         .then(res => {
             const data = res.data
